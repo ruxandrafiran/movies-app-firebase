@@ -1,0 +1,19 @@
+.notifPage {    
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 6%;
+    align-items: center;
+    .notification {
+        padding: 20px;
+        // border-radius: 20px;
+        // border: solid 1px darkgray;
+        width: 80%;
+        display: flex;
+        gap: 10px;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+}

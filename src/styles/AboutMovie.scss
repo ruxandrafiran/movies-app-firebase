@@ -1,0 +1,63 @@
+.pageAbMovie {
+    //position: relative;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 6%;
+    justify-content: center;
+    .movie {
+        display: flex;
+        min-height: 300px;
+        gap: 20px;
+        .movieInfo {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            position: relative;
+            button {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            form {
+                label{
+                display: flex;
+                width: 100%;
+                padding: 5px;
+                }
+                max-height: 150px;
+                overflow-y: scroll;
+                width: 200px;
+            }
+            .sendToFriend {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                gap: 10px;
+                margin-top: 20px;
+            }
+            .addFriendsFirst {
+                text-align: center;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    @media (max-width: 500px) {
+        .movie {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .backHome {
+        width: 200px;
+        height: 50px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        align-self: center;
+    }
+
+}

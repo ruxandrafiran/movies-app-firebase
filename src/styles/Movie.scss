@@ -1,0 +1,19 @@
+.movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    .movie {
+        width: 300px;
+        height: 500px;
+        background-color: white;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+        flex-direction: column;
+        border-radius: 20px;
+        border: solid 1px rgb(118, 118, 118);
+        justify-content: center;
+    }
+}

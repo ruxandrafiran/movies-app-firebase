@@ -1,0 +1,65 @@
+.pageEditProfile {
+    background-color: white;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6%;
+  }
+
+.editProfile {
+    position: relative;
+    border: solid 2px grey;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 80%;
+    height:500px;
+    border-radius: 20px;
+    gap: 30px;
+    form {
+        display: flex;
+        flex-direction: column;
+        // background-color: rgb(168, 168, 168);
+        // width: 80%;
+        // height:500px;
+        // border-radius: 20px;
+        align-items: center;
+        gap: 20px;
+        label {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .modifyButton {
+        margin-top: 20px;
+        padding: 10px 20px 10px 20px;
+        background-color: yellow;
+        border: 1px solid rgb(55, 55, 55);
+        border-radius: 4px;
+    }
+    .saveButton {
+        margin-top: 20px;
+        padding: 10px 20px 10px 20px;
+        background-color: greenyellow;
+        border: 1px solid rgb(55, 55, 55);
+        border-radius: 4px;
+    }
+    .cancelButton {
+        margin-top: 20px;
+        padding: 10px 20px 10px 20px;
+        background-color: rgb(241, 99, 99);
+        border: 1px solid rgb(55, 55, 55);
+        border-radius: 4px;
+    }
+    .buttons {
+        display: flex;
+        gap: 20px;
+    }
+}
